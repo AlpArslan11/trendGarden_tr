@@ -9,6 +9,7 @@ import utilities.Driver;
 
 public class Hooks {
 
+    /*
     @Before
     public void setUpScenarios(){
         System.out.println("Before Metotu");
@@ -22,4 +23,6 @@ public class Hooks {
             Driver.quitDriver();
         }
     }
+
+     */
 }

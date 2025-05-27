@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.876" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-05-27T19:18:24.981658700Z">
+<testcase classname="User should be able to update the password that meets the minimum security requirements" name="US027 - TC01 User should be able to update the password that meets the minimum security requirements" time="0.458">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
+	at utilities.Driver.getDriver(Driver.java:34)
+	at stepdefinitions.Profile_StepDefs.userIsOnTheHomepage(Profile_StepDefs.java:14)
+	at ✽.User is on the homepage(file:///C:/Users/asd/IdeaProjects/trendGarden_tr/src/test/resources/features/Profile.feature:5)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on the homepage...............................................failed
+When User Logins with valid credentials.....................................skipped
+Then Navigate to the sifre degistirme page..................................skipped
+When Enter the correct current password to Mevcut Sifreniz..................skipped
+When Enter a valid password to the Yeni Sifreniz............................skipped
+Then Re-enter new password in the confirmation field Yeni Sifreniz Tekrar textbox.skipped
+And Click on Sifremi Degistir button........................................skipped
+Then Verify that the system displays a message on a pop up indicating that the password has changed.skipped
+And Log out from the account................................................skipped
+Then Login with the new password............................................skipped
+Then Verify logged in the account...........................................skipped
+And Update new password to the old one......................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
